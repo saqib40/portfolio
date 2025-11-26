@@ -1,3 +1,0 @@
-# sargam.xyz
-
-WIP
