@@ -2,6 +2,7 @@
 const nextConfig = {
   output: "export",       // <=== Generates an 'out' folder with static HTML
   basePath: "/portfolio", // <=== Needed for links/styles to work on gh-pages
+  assetPrefix: "/portfolio/", // <=== Ensures CSS/JS assets load correctly
   images: {
     unoptimized: true,    // <=== Disables image optimization service (not supported on GH Pages)
   },
