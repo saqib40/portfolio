@@ -1,16 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",       // <=== Generates an 'out' folder with static HTML
+  basePath: "/portfolio", // <=== Needed for links/styles to work on gh-pages
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'avatars.githubusercontent.com',
-      },
-      {
-        protocol: 'https',
-        hostname: 'skillicons.dev',
-      },
-    ],
+    unoptimized: true,    // <=== Disables image optimization service (not supported on GH Pages)
   },
 };
 
