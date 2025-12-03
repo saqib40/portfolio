@@ -28,6 +28,11 @@ export const links: Array<ILink> = [
     name: 'Readme Formatter for beautiful markdown',
     href: 'https://github.com/saqib40/readme-formatter',
     icon: 'github',
+  },
+  {
+    name: 'Old take-u-forward with github links attached',
+    href: 'https://github.com/saqib40/old-tuf',
+    icon: 'github',
   }
 ];
 
